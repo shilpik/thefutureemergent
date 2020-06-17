@@ -1,23 +1,23 @@
 body {
-  font-family: ;
-  font-variant: ;
-  font-size: ;
+  font-family: sans-serif ;
+  font-variant: mono;
   font-weight: ;
   font-style: ;
-  color: ;
+  color:white;
   animation-name: ;
   animation-duration: ;
-  background: #111;
+  background: black;
 	overflow: hidden;
 }
 
 h1 {
   position: relative;
   margin:auto;
-  text-align: center;
+  text-align: right;
   width: 80%;
-  color:#4CAF4F;
-  outline: lightyellow, 2px;
+  color:white;
+  outline: lightyellow, 5px;
+  font-size:40 px ;
 }
 
 h2 {
@@ -28,11 +28,41 @@ h2 {
   color:navy;
 }
 
-div.feature {
+a{
+  color:lightblue;
+  size:30px;
+}
 
+div.feature {
+ Shape: circle;
+ color: white;
 }
 
 
 div.spacer{
+  width: 100px;
+  height:100px;
+}
 
+div.smallspacer{
+  width: 100px;
+  height:25px;
+}
+
+div.nav {
+  position: relative;
+  margin:auto;
+  text-align: left;
+  color:lightyellow;
+  outline: lightyellow, 5px;
+  font-size:30 px ;
+  font-weight:thin;
+  font-family: monospace;
+}
+div.hspace{
+  width:10px;
+}
+
+map{
+  border-radius:50%;
 }

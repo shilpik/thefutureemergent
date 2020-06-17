@@ -1,9 +1,9 @@
 function setup(){
   createCanvas(1280,1024);
-  background(0);
+  backgroundColor(inherit);
 }
 
 function draw(){
   ellipses(w,y,50,50);
-  color(20,20,180);
+  color(white);
 }
