@@ -8,7 +8,6 @@ body {
   animation-duration: ;
   background: black;
 	overflow: scroll;
-  height:inherit;
   cursor:cell;
 }
 
@@ -34,7 +33,7 @@ h2 {
 }
 
 a{
-  color:lightgray;
+  color:lightpink;
   size:30px;
   text-decoration: none;
 }
@@ -59,6 +58,11 @@ div.spacer{
 div.smallspacer{
   width: 100px;
   height:25px;
+}
+div.bubbleshome{
+  max-width: 50%;
+  position: relative;
+  margin-right:30%;
 }
 
 div.nav {
