@@ -44,8 +44,8 @@ a:hover{
 }
 
 div.feature {
- Shape: ellipse;
- color: white;
+  margin-left:100px;
+  display:flex;
 }
 
 
@@ -73,7 +73,6 @@ div.nav {
   font-weight:thin;
   font-family: 'Space Mono', monospace;
   width:80%;
-  font-style: ;
   font-kerning: 40;
 }
 div.hspace{
@@ -126,6 +125,17 @@ border-radius: 50%;
   opacity:100%;
 }
 
+img.full{
+  max-width: 70%;
+  padding: 10%;
+  height: inherit;
+  width: inherit;
+  float:left;
+  display: inline;
+  position: relative;
+  align:left;
+}
+
 .bubbletext {
   margin:auto;
   height:150px;
@@ -164,10 +174,14 @@ border-radius: 50%;
 .title {
   font-family: "archivo";
   position: relative;
+  margin-left:2%;
+  margin-right: 50%;
   font-size: 40px;
   text-align: left;
   font-weight: lighter;
-  color: yellow;
+  color: lightyellow;
+  display: inline-block;
+
 }
 
 .longtext{
@@ -186,4 +200,29 @@ border-radius: 50%;
   position: relative;
   margin-left:60%;
   opacity: 50%;
+}
+
+div.caption{
+  position: relative;
+  font-family:"space mono";
+  font-size: 16px;
+  text-align:left;
+  max-width: 70%;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+  margin-right:15%;
+  margin-left:10%;
+}
+div.arttitle{
+  position: relative;
+  font-family:"space mono";
+  font-variant: uppercase;
+  font-size: 30px;
+  text-align:left;
+  max-width: 80%;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+  margin-right:15%;
+  margin-left:10%;
+  padding:2%;
 }
