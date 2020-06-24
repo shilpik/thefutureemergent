@@ -4,8 +4,6 @@ body {
   font-weight: ;
   font-style: normal;
   color:white;
-  animation-name: ;
-  animation-duration: ;
   background: black;
 	overflow: scroll;
   cursor:cell;
@@ -40,8 +38,9 @@ a{
 
 a:hover{
   font-style: italic;
-  opacity:20%;
-  color: lightgreen;
+  opacity:40%;
+  color: lightgray;
+  transform: scale(1.2,1.2,1.2);
 }
 
 div.feature {
@@ -100,14 +99,17 @@ border-radius: 50%;
   align:left;
   opacity:100%;
 }
-img.bubble1:hover, img.bubble2:hover,img.bubble3:hover,div.bubbletext:hover {
+img.bubble1:hover, img.bubble2:hover,img.bubble3:hover,div.rightbubbles:hover {
   opacity:30%;
   font: white;
- transform:scale(1.5);
-  text-transform:uppercase;
+ transform:scale3d(1.5,1.5,1.5);
 }
 
-
+div.bubbletext:hover, div.rightbubbles:click{
+  transform: rotateY(180deg);
+  opacity: 40%;
+  text-transform:uppercase;
+}
 .hovercap:hover{
   position:relative;
   font-size:18px;
@@ -183,6 +185,5 @@ border-radius: 50%;
   align-items:right;
   position: relative;
   margin-left:60%;
-  margin-right: 15%;
   opacity: 50%;
 }
