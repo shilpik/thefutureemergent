@@ -16,7 +16,7 @@
   <div class="smallspacer"> </div>
   <div class="bubbleshome">
   <a href="Kevin1.html"><img class="bubble1" src="Kevin1sq.png" alt="Magadalen Fjorden, Kevin Cooley"> </a>
-    <img class="bubble2" src="David1sq.png" alt="Get Up and Get Down, David Huffman">  <img class="bubble3" src="Kytana1sq.png" alt="And suddenly froze..., Kytana Winn"></div> <img class="bubble3" src="tiare1sq.png" alt="Cyanovisions, Tiare Ribeaux" href="tiare1.html"> </img> </div><a href="dearpastkytana.html"> <div class="bubbletext"> dear past kytana </div></a> <img class="bubble1" src="Kytana2sq.png" alt="And in those eyes..., Kytana Winn"></img>
+    <img class="bubble2" src="David1sq.png" alt="Get Up and Get Down, David Huffman">  <img class="bubble3" src="Kytana1sq.png" alt="And suddenly froze..., Kytana Winn"></img> <img class="bubble3" src="tiare1sq.png" alt="Cyanovisions, Tiare Ribeaux" href="tiare1.html"> </img> <a href="dearpastkytana.html"> <div class="bubbletext"> dear past kytana </div></a> <img class="bubble1" src="Kytana2sq.png" alt="And in those eyes..., Kytana Winn"></img>
   </div>
   THE <div class="smallspacer"> </div>
   - <div class="smallspacer"> </div>
@@ -36,5 +36,5 @@
   </body>
 
 <footer>
-  <div class="nav"> <a href=exhibition.html>EXHIBITION</a> <div class="smallspacer"> </div> <a href=visual.html>VISUAL WORKS</a> <div class="smallspacer"> </div> <a href=musings.html>MUSINGS</a> <div class="smallspacer"> </div> </div>
+  <div class="nav"> <a href=exhibition.html>EXHIBITION</a> <div class="smallspacer"> </div> <a href=visualworks.html>VISUAL WORKS</a> <div class="smallspacer"> </div> <a href=musings.html>MUSINGS</a> <div class="smallspacer"> </div> </div>
 </footer>
