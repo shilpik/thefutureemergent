@@ -1,8 +1,8 @@
 body {
-  font-family:'Archivo','Space Mono' ;
+  font-family:'Archivo', sans-serif ;
   font-variant: monospace;
   font-weight: ;
-  font-style: normal;
+  font-style: ;
   color:white;
   animation-name: ;
   animation-duration: ;
@@ -39,10 +39,9 @@ a{
   text-decoration: none;
 }
 
-a:hover{
+a.hover{
   font-style: italic;
   opacity:20%;
-  color: lightgreen;
 }
 
 div.feature {
@@ -99,10 +98,12 @@ border-radius: 50%;
 img.bubble1:hover, img.bubble2:hover,img.bubble3:hover,div.bubbletext:hover {
   opacity:30%;
   font: white;
- transform:scale(1.5);
-  text-transform:uppercase;
 }
 
+img.bubble1:onclick, img.bubble2:onclick,img.bubble3:onclick,div.bubbletext:onclick {
+  opacity:0%;
+  font: white;
+}
 
 .hovercap:hover{
   position:relative;
@@ -134,13 +135,14 @@ border-radius: 50%;
   float:left;
   align:center;
   opacity:100%;
-  font-size: 12px;
+  font-size: 18px;
   text-align: center;
   position:inherit;
-  font-family: "Space Mono";
+  font-family: inherit;
   color:black;
   background-color: lightyellow;
-  opacity:70%;
+  opacity:80%;
+  content:bottom;
   line-height: 150px;
 }
 
@@ -154,4 +156,39 @@ img.hbubble {
   opacity:100%;
   outline: 2px;
   outline-color: Yellow;
+}
+
+.spacedate {
+  font-family: "space mono";
+  position: relative;
+  font-size: 40px;
+  text-align: left;
+  font-weight: lighter;
+  color: lightyellow;
+}
+.title {
+  font-family: "archivo";
+  position: relative;
+  font-size: 40px;
+  text-align: left;
+  font-weight: lighter;
+  color: yellow;
+}
+
+.longtext{
+  font-family: "space mono";
+  margin-top:10px;;
+  position:absolute;
+  font-size: 16px;
+  max-width: 60%;
+  text-align: left;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+}
+
+.rightbubbles {
+  align-items:right;
+  position: relative;
+  margin-left: 60%;
+  margin-right: 15%;
 }
