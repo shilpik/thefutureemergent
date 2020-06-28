@@ -10,11 +10,11 @@ body {
 }
 
 h1 {
-  position: fixed;
-  right:45px;
+  position: absolute;
+  left:85%;
+  top:5%;
   margin:auto;
   text-align: right;
-  width: 80%;
   color:white;
   outline: lightyellow, 5px;
   font-size:40px ;
@@ -31,6 +31,13 @@ h2 {
   color:white;
 }
 
+footer{
+  position: absolute;
+  left:70%;
+  top:5%;
+  display:flex;
+  z-index: 1;
+}
 a{
   color:lightpink;
   size:30px;
@@ -66,16 +73,12 @@ div.bubbleshome{
 }
 
 div.nav {
-  position: fixed;
-  right:45px;
-  top:650px;
-  margin:auto;
+  position: relative;
   text-align: right;
   color:lightyellow;
   font-size:20px;
   font-weight:thin;
   font-family: 'Space Mono', monospace;
-  width:80%;
   font-kerning: 40;
 }
 div.hspace{
@@ -132,7 +135,7 @@ border-radius: 50%;
 }
 
 img.full{
-  max-width: 70%;
+  max-width: 80%;
   padding: 10%;
   height: inherit;
   width: inherit;
@@ -145,29 +148,43 @@ img.full{
   z-index: -1;
 }
 
+img.inline{
+  max-width: 80%;
+  padding: 10%;
+  height: inherit;
+  width: inherit;
+  float:left;
+  display:flex;
+  position: relative;
+
+}
+
 .bubbletext {
-  margin:auto;
   height:150px;
   width:150px;
-  display:inline-block;
-  transform:translateY(-50%);
+  display:flex;
   border-radius: 50%;
   border-style: dashed;
   border-color: white;
   border-width: thick;
   padding: top;
   float:left;
-  align:center;
-  opacity:100%;
   font-size: 12px;
   text-align: center;
   position:relative;
   font-family: "Space Mono";
   color:black;
   background-color: lightyellow;
-  opacity:70%;
-  line-height: 150px;
-  max-width:40%;
+  opacity:60%;
+}
+
+div.bubbletext p{
+  margin:0;
+  position:absolute;
+  top:50%;
+  left:50%;
+  margin-right:-50%;
+  transform:translate(-50%,-50%);
 }
 
 
@@ -175,6 +192,7 @@ img.full{
 .spacedate {
   font-family: "space mono";
   position: relative;
+  margin-left:2%;
   font-size: 40px;
   text-align: left;
   font-weight: lighter;
@@ -195,10 +213,11 @@ img.full{
 
 .longtext{
   font-family: "space mono";
-  margin-top:10px;;
+  margin-top:10px;
+  margin-left:2%;
   position:absolute;
   font-size: 16px;
-  max-width: 60%;
+  max-width: 50%;
   text-align: left;
   font-weight: lighter;
   font-stretch: semi-expanded;
@@ -240,16 +259,40 @@ div.arttitle{
 }
 
 div.myDiv{
-
+  font-family: 'space mono';
+  font-size: 16px;
+  max-width: 60%;
+  text-align: left;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
 }
 
-#panel, .flip {
+#panelamy,#panelalicia,#panelkytana, .flip {
   padding: 10px;
   text-align: left;
   background-color:inherit;
   position:relative;
+  font-family: 'space mono';
+  font-size: 16px;
+  max-width: 60%;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
+}
+
+div.musing{
+  padding: 2px;
+  text-align: left;
+  background-color:inherit;
+  font-variant: small-caps;
+  position:relative;
+  font-family: 'space mono';
+  font-size: 20px;
+  max-width: 60%;
+  font-weight: lighter;
+  font-stretch: semi-expanded;
 }
 
 #panel {
   display: none;
+  font-family: 'space mono';
 }
