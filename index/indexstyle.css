@@ -436,7 +436,8 @@ h1{
   font-size: 70%;
 }
 div.wrapper{
-  font-size: 50%;
+  font-size: 25%;
+  height:250%;
 }
 
 img.bubble1,img.bubble2,img.bubble3{
