@@ -120,3 +120,34 @@ function myFunctionartserena() {
     x.style.display = "block";
   }
 }
+function myFunctionartalan() {
+  var x =
+  document.getElementById("panelartalan")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunctionartconnie() {
+  var x =
+  document.getElementById("panelartconnie")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunctionconnie) {
+  var x =
+  document.getElementById("panelconnie")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

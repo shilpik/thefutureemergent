@@ -159,7 +159,7 @@ border-radius: 50%;
 }
 
 img.bubble1:hover,img.bubble2:hover,img.bubble3:hover, div.bubbletext:hover,div.rightbubbles:hover{
-  opacity:1;
+  opacity:100%;
   font: white;
  transform:scale3d(1.5,1.5,1.5);
    cursor:cell;
@@ -167,7 +167,7 @@ img.bubble1:hover,img.bubble2:hover,img.bubble3:hover, div.bubbletext:hover,div.
 
 div.bubbletext:hover, div.rightbubbles:click{
   transform: rotateY(180deg);
-  opacity: 1;
+  opacity: 100%;
   text-transform:uppercase;
   cursor:cell;
 }
@@ -203,6 +203,7 @@ img.full{
   z-index: -1;
 }
 
+
 img.inline{
   max-width: 80%;
   padding: 10%;
@@ -229,7 +230,7 @@ img.inline{
   font-family: 'Space Mono';
   color:black;
   background-color: lightyellow;
-  opacity:.7;
+  opacity:.8;
   display: flex;
   padding:10px;
 }
@@ -324,7 +325,7 @@ div.myDiv{
   font-stretch: semi-expanded;
 }
 
-#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy, #panelartmalik, #panelartblr, #paneldelta, #panelartdelta, #panelarttiare,#panelartserena{
+#panelartalan,#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy, #panelartmalik, #panelartblr, #panelconnie, #panelartconnie,#paneldelta, #panelartdelta, #panelarttiare,#panelartserena{
   display:none;
   padding: 10px;
   text-align: left;
@@ -405,13 +406,13 @@ div.bubblefriend{
 }
 
 div.wrapper{
-  background:white;
+  background-color:lightyellow;
   color:black;
-  font-family: 'archivo';
-  font-size: 24px;
+  font-family: 'space mono';
+  font-size: 22px;
   text-align:center;
   width:100%;
-  height:30px;
+  height:32px;
   top: 0;
   position: fixed;
   vertical-align: middle;
