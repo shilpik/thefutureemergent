@@ -428,7 +428,7 @@ div.nav {
     display: block;
     float:none;
     margin:2%;
-    top:50%;
+    top:60%;
     color:lightgray;
 }
 h1{
@@ -445,12 +445,13 @@ div.wrapper{
 }
 div.caption{
   text-transform:scale(1.2);
+  max-width: 70%;
 }
 img.bubble1,img.bubble2,img.bubble3{
   float:none;
 }
 div.linespace, div.smallspacer{
-  height:50%;
+  height:60%;
 }
 div.bubbletext{
   transform: scale(.7);
