@@ -274,8 +274,8 @@ div.bubbletext p{
   margin-top:10px;
   margin-left:2%;
   position:absolute;
-  font-size: 16px;
-  max-width: 50%;
+  font-size: 18px;
+  max-width: 60%;
   text-align: left;
   font-weight: lighter;
   font-stretch: semi-expanded;
@@ -291,7 +291,7 @@ div.bubbletext p{
 div.caption{
   position: relative;
   font-family:"space mono";
-  font-size: 16px;
+  font-size: 18px;
   text-align:left;
   max-width: 60%;
   font-weight: lighter;
@@ -323,6 +323,7 @@ div.myDiv{
   text-align: left;
   font-weight: lighter;
   font-stretch: semi-expanded;
+  left:2%;
 }
 
 #panelartalan,#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy, #panelartmalik, #panelartblr, #panelconnie, #panelartconnie,#paneldelta, #panelartdelta, #panelarttiare,#panelartserena{
@@ -371,7 +372,7 @@ div.exmusing{
   line-height: 1em;
   font-family: 'space mono';
   font-size: 32px;
-  max-width: 60%;
+  max-width: 70%;
   font-weight: lighter;
   font-stretch: semi-expanded;
   position: relative;
@@ -416,49 +417,52 @@ div.wrapper{
   top: 0;
   position: fixed;
   vertical-align: middle;
-
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 740px) {
 div.nav {
-    font-size: 20px;
+    transform:scale(.8);
     position: absolute;
-    right:22%;
+    right:1%;
     text-align:right;
     display: block;
     float:none;
     margin:2%;
+    top:50%;
+    color:lightgray;
 }
 h1{
   display: table-cell;
   position:absolute;
   right:1%;
-  font-size: 70%;
+  transform:scale(.8);
+  top:1%;
 }
 div.wrapper{
-  font-size: 25%;
-  height:250%;
+  font-size: 65%;
+  background-color: black;
+  color:white;
 }
-
+div.caption{
+  text-transform:scale(1.2);
+}
 img.bubble1,img.bubble2,img.bubble3{
   float:none;
 }
-
+div.linespace, div.smallspacer{
+  height:50%;
+}
 div.bubbletext{
   transform: scale(.7);
 }
-
-.bubbleshome{
+div.bubbleshome{
   max-width: 90%;
 }
-
 div.bubbleshome2,div.bubbleshome3, div.bubbleshome5{
   display:none;
 }
-
 div.exmusing, h2, div.arttitle{
-  transform:scale(.7);
+  transform:scale(.8);
   left:2%;
 }
-
 }
