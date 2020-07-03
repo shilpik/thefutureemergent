@@ -433,8 +433,12 @@ h1{
   display: table-cell;
   position:absolute;
   right:1%;
-
+  font-size: 70%;
 }
+div.wrapper{
+  font-size: 50%;
+}
+
 img.bubble1,img.bubble2,img.bubble3{
   float:none;
 }
