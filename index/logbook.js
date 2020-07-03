@@ -141,7 +141,7 @@ function myFunctionartconnie() {
   }
 }
 
-function myFunctionconnie) {
+function myFunctionconnie() {
   var x =
   document.getElementById("panelconnie")
 
