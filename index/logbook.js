@@ -151,3 +151,35 @@ function myFunctionconnie() {
     x.style.display = "block";
   }
 }
+
+function myFunctionartlonny() {
+  var x =
+  document.getElementById("panelartlonny")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+
+function myFunctionlonny() {
+  var x =
+  document.getElementById("panellonny")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+function myFunctionartkevin() {
+  var x =
+  document.getElementById("panelartkevin")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}

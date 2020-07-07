@@ -20,6 +20,7 @@ h1 {
   color:white;
   outline: lightyellow, 5px;
   font-size:40px ;
+  max-height: 75%;
 }
 
 h2 {
@@ -108,13 +109,13 @@ div.bubbleshome5{
 div.nav {
   text-align:right;
   color:lightyellow;
-  font-size:20px;
+  font-size:25px;
   font-weight:thin;
   font-family: 'Space Mono', monospace;
   font-kerning: 40px;
   position: fixed;
-  right:12%;
-  top:5%;
+  right:5%;
+  top:75%;
   display:inline-block;
 }
 div.hspace{
@@ -192,7 +193,7 @@ border-radius: 50%;
 
 img.full{
   max-width: 70%;
-  padding: 10%;
+  padding: 5%;
   height: inherit;
   float:center;
   display: inline;
@@ -297,7 +298,7 @@ div.caption{
   font-weight: lighter;
   font-stretch: semi-expanded;
   margin-right:15%;
-  margin-left:10%;
+  margin-left:4%;
   position:relative;
   z-index:1;
 }
@@ -311,8 +312,8 @@ div.arttitle{
   font-weight: lighter;
   font-stretch: semi-expanded;
   margin-right:15%;
-  margin-left:2%;
-  padding:2%;
+  margin-left:1%;
+  padding:0%;
   position:relative;
 }
 
@@ -326,7 +327,7 @@ div.myDiv{
   left:2%;
 }
 
-#panelartalan,#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy, #panelartmalik, #panelartblr, #panelconnie, #panelartconnie,#paneldelta, #panelartdelta, #panelarttiare,#panelartserena{
+#panelartalan,#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy, #panelartmalik, #panelartblr, #panelconnie, #panelartconnie,#paneldelta, #panelartdelta, #panelarttiare,#panelartserena,#panelartlonny,#panellonny, #panelartkevin{
   display:none;
   padding: 10px;
   text-align: left;
@@ -423,14 +424,22 @@ div.wrapper{
 div.nav {
     transform:scale(.8);
     position: absolute;
-    right:1%;
+    right:-1%;
     text-align:right;
     display: block;
     float:none;
-    margin:2%;
-    top:60%;
+    top:42%;
     color:lightgray;
+    font-size: 20px;
 }
+img.full{
+  padding:5%;
+  top:50%;
+  max-width: 60%;
+  display: inline-flex;
+  left:2%;
+}
+
 h1{
   display: table-cell;
   position:absolute;
@@ -444,8 +453,10 @@ div.wrapper{
   color:white;
 }
 div.caption{
-  text-transform:scale(1.2);
-  max-width: 70%;
+  font-size:100%;
+  max-width: 100%;
+  left:1%;
+  padding:2%;
 }
 img.bubble1,img.bubble2,img.bubble3{
   float:none;
@@ -464,6 +475,7 @@ div.bubbleshome2,div.bubbleshome3, div.bubbleshome5{
 }
 div.exmusing, h2, div.arttitle{
   transform:scale(.8);
-  left:2%;
+  left:1%;
+  padding:2%;
 }
 }
