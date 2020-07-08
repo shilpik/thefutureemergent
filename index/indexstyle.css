@@ -87,22 +87,22 @@ div.bubbleshome2{
 div.bubbleshome3{
   max-width: screen(65%);
   padding-right:30%;
-  top:50%;
-  left:30%;
-  display: block;
+  top:20%;
+  left:20%;
+  display:block;
 }
 div.bubbleshome4{
   max-width: screen(65%);
   padding-right:30%;
   left:30%;
-  top:30%;
-  display: block;
+  top:10%;
+  display:block;
 }
 div.bubbleshome5{
   max-width: screen(65%);
   padding-right:30%;
   top:40%;
-  left:20%;
+  margin-left:40%;
   display: block;
 }
 
@@ -132,7 +132,7 @@ border-radius: 50%;
   opacity:.7;
   position: relative;
   display: flex;
-  padding:-5px;
+  padding:10px;
 }
 
 img.bubblesmall{
@@ -420,6 +420,28 @@ div.wrapper{
   vertical-align: middle;
 }
 
+@media only screen and (max-width: 1050px) {
+div.nav {
+    position: absolute;
+    right:-2%;
+    text-align:right;
+    display: block;
+    float:none;
+    top:5%;
+    right:100px;
+    color:lightgray;
+    font-size: 20px;
+    transform:scale(.5);
+}
+h1{
+  display: block;
+  position:absolute;
+  right:1%;
+  transform:scale(.5);
+  top:0%;
+}
+]}
+
 @media only screen and (max-width: 600px) {
 div.nav {
     transform:scale(.8);
@@ -441,10 +463,11 @@ img.full{
 }
 
 h1{
-  display: table-cell;
+  display: block;
   position:absolute;
   right:1%;
   transform:scale(.8);
+  padding: -20px;
   top:1%;
 }
 div.wrapper{
@@ -459,16 +482,17 @@ div.caption{
   padding:2%;
 }
 img.bubble1,img.bubble2,img.bubble3{
-  float:none;
+  float:left;
 }
 div.linespace, div.smallspacer{
   height:60%;
 }
-div.bubbletext{
+div.bubbletext, img.bubble3{
   transform: scale(.7);
+  padding: none;
 }
 div.bubbleshome{
-  max-width: 90%;
+  max-width: 60%;
 }
 div.bubbleshome2,div.bubbleshome3, div.bubbleshome5{
   display:none;
