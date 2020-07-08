@@ -72,38 +72,40 @@ div.linespace{
 }
 div.bubbleshome{
   max-width: screen(65%);
-  padding-right:30%;
+  padding-right:20%;
   top:50px;
   left:10%;
   display: block;
 }
 div.bubbleshome2{
   max-width: screen(65%);
-  padding-right:30%;
+  padding-right:20%;
   top:10%;
   left:10%;
   display: block;
 }
 div.bubbleshome3{
   max-width: screen(65%);
-  padding-right:30%;
+  padding-right:20%;
   top:20%;
   left:20%;
   display:block;
 }
 div.bubbleshome4{
   max-width: screen(65%);
-  padding-right:30%;
+  padding-right:20%;
   left:30%;
   top:10%;
   display:block;
+  float:left;
 }
 div.bubbleshome5{
   max-width: screen(65%);
-  padding-right:30%;
+  padding-right:10%;
   top:40%;
   margin-left:40%;
   display: block;
+  float:right;
 }
 
 div.nav {
@@ -440,7 +442,9 @@ h1{
   transform:scale(.5);
   top:0%;
 }
-]}
+div.bubbleshome3, div.bubbleshome5{
+  display:none;
+}
 
 @media only screen and (max-width: 600px) {
 div.nav {
@@ -450,7 +454,7 @@ div.nav {
     text-align:right;
     display: block;
     float:none;
-    top:45%;
+    top:55%;
     color:lightgray;
     font-size: 20px;
 }
