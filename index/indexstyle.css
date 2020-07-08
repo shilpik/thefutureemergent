@@ -74,21 +74,21 @@ div.bubbleshome{
   max-width: screen(65%);
   padding-right:30%;
   top:50px;
-  left:200px;
+  left:10%;
   display: block;
 }
 div.bubbleshome2{
   max-width: screen(65%);
   padding-right:30%;
-  top:100px;
-  left:300px;
+  top:10%;
+  left:10%;
   display: block;
 }
 div.bubbleshome3{
   max-width: screen(65%);
   padding-right:30%;
-  top:70%;
-  left:50%;
+  top:50%;
+  left:30%;
   display: block;
 }
 div.bubbleshome4{
@@ -101,8 +101,8 @@ div.bubbleshome4{
 div.bubbleshome5{
   max-width: screen(65%);
   padding-right:30%;
-  top:50%;
-  left:2%;
+  top:40%;
+  left:20%;
   display: block;
 }
 
@@ -132,7 +132,7 @@ border-radius: 50%;
   opacity:.7;
   position: relative;
   display: flex;
-  padding:10px;
+  padding:-5px;
 }
 
 img.bubblesmall{
@@ -140,11 +140,11 @@ img.bubblesmall{
 border-radius: 50%;
   height:50px;
   width:50px;
-  float:left;
+  float:center;
   align:left;
   opacity:.7;
   display: flex;
-  padding:10px;
+  padding:5px;
 }
 
 img.bubble1 {
@@ -155,11 +155,11 @@ border-radius: 50%;
   float:left;
   align:left;
   opacity:.7;
-  display: flex;
-  padding:10px;
+  display:block;
+  padding:-2px;
 }
 
-img.bubble1:hover,img.bubble2:hover,img.bubble3:hover, div.bubbletext:hover,div.rightbubbles:hover{
+img.bubble1:hover,img.bubble2:hover,img.bubble3:hover, div.bubbletext:hover,div.rightbubbles:hover, img.bubblesmall:hover{
   opacity:100%;
   font: white;
  transform:scale3d(1.5,1.5,1.5);
@@ -183,22 +183,21 @@ img.bubble2 {
 border-radius: 50%;
   height:200px;
   width:200px;
-  float:left;
+  float:center;
   align:left;
   opacity:70%;
-  display: fixed;
   display: flex;
   padding:10px;
 }
 
 img.full{
   max-width: 70%;
-  padding: 5%;
+  padding:3%;
   height: inherit;
   float:center;
   display: inline;
   position: relative;
-  left:50px;
+  left:5%;
   top:50px;
   align:center;
   z-index: -1;
@@ -294,11 +293,12 @@ div.caption{
   font-family:"space mono";
   font-size: 18px;
   text-align:left;
-  max-width: 60%;
+  max-width: 80%;
   font-weight: lighter;
   font-stretch: semi-expanded;
   margin-right:15%;
-  margin-left:4%;
+  margin-left:5%;
+  padding:1%;
   position:relative;
   z-index:1;
 }
@@ -312,8 +312,8 @@ div.arttitle{
   font-weight: lighter;
   font-stretch: semi-expanded;
   margin-right:15%;
-  margin-left:1%;
-  padding:0%;
+  margin-left:5%;
+  padding:1%;
   position:relative;
 }
 
@@ -327,7 +327,7 @@ div.myDiv{
   left:2%;
 }
 
-#panelartalan,#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy, #panelartmalik, #panelartblr, #panelconnie, #panelartconnie,#paneldelta, #panelartdelta, #panelarttiare,#panelartserena,#panelartlonny,#panellonny, #panelartkevin{
+#panelartalan,#panelamy,#panelalicia,#panelkytana,#panelartalicia,#panelartkytana,#panelartamy, #panelartmalik, #panelartblr, #panelconnie, #panelartconnie,#paneldelta, #panelartdelta, #panelarttiare,#panelartserena,#panelartlonny,#panellonny, #panelartkevin, #panelartjody{
   display:none;
   padding: 10px;
   text-align: left;
@@ -428,7 +428,7 @@ div.nav {
     text-align:right;
     display: block;
     float:none;
-    top:42%;
+    top:45%;
     color:lightgray;
     font-size: 20px;
 }
@@ -477,5 +477,8 @@ div.exmusing, h2, div.arttitle{
   transform:scale(.8);
   left:1%;
   padding:2%;
+}
+div.spacer{
+  height:25%;
 }
 }

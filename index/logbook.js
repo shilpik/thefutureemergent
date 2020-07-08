@@ -183,3 +183,13 @@ function myFunctionartkevin() {
     x.style.display = "block";
   }
 }
+function myFunctionartjody() {
+  var x =
+  document.getElementById("panelartjody")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
