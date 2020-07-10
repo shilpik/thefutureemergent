@@ -442,7 +442,7 @@ h1{
   transform:scale(.5);
   top:0%;
 }
-div.bubbleshome3, div.bubbleshome5{
+div.bubblehome3, div.bubbleshome5{
   display:none;
 }
 
@@ -498,7 +498,7 @@ div.bubbletext, img.bubble3{
 div.bubbleshome{
   max-width: 60%;
 }
-div.bubbleshome2,div.bubbleshome3, div.bubbleshome5{
+div.bubbleshome3, div.bubbleshome5{
   display:none;
 }
 div.exmusing, h2, div.arttitle{
