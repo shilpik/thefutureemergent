@@ -203,10 +203,9 @@ function myFunctionartjudit() {
     x.style.display = "block";
   }
 }
-
 function myFunctionkevin() {
   var x =
-  document.getElementById("panelartkevin")
+  document.getElementById("panelkevin")
 
   if (x.style.display === "block") {
     x.style.display = "none";
