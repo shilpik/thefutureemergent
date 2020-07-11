@@ -203,3 +203,14 @@ function myFunctionartjudit() {
     x.style.display = "block";
   }
 }
+
+function myFunctionkevin() {
+  var x =
+  document.getElementById("panelartkevin")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
