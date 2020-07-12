@@ -213,3 +213,13 @@ function myFunctionkevin() {
     x.style.display = "block";
   }
 }
+function myFunctionarthyphen() {
+  var x =
+  document.getElementById("panelarthyphen")
+
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
