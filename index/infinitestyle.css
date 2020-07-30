@@ -1,0 +1,53 @@
+body{
+  background:#b3c5db;
+  font-family:'Space Mono';
+  text-decoration: none;
+}
+
+img.center{
+  float:center;
+  position: static;
+  max-width:50%;
+  padding-left:5%;
+  margin-top:-12%;
+}
+
+a{
+  color: navy;
+  font-size: 30px;
+  font-style: normal;
+  text-decoration: none;
+}
+
+div.request{
+  position:sticky;
+  float:left;
+  margin-left: 12%;
+}
+div.discover{
+  position:sticky;
+  float:right;
+  margin-right:12%;
+}
+
+div.bigspacer{
+  width:200px;
+  height:400px;
+}
+
+img.spinner{
+  max-width: 5%;
+  padding:1%;
+  Display:none;
+}
+
+h1 {
+  font-family:'Archivo';
+  position: fixed;
+  right:5%;
+  top:5%;
+  margin:auto;
+  text-align: right;
+  color:black;
+  font-size:80px ;
+}
