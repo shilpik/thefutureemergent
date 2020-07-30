@@ -28,6 +28,8 @@ div.discover{
   position:sticky;
   float:right;
   margin-right:12%;
+  font-size:30px;
+  color:gray;
 }
 
 div.bigspacer{
